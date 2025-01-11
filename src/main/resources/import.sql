@@ -72,15 +72,7 @@ INSERT INTO tb_payment (order_id, moment) VALUES (2, TIMESTAMP WITH TIME ZONE '2
 INSERT INTO tb_role (authority) VALUES ('ROLE_CLIENT');
 INSERT INTO tb_role (authority) VALUES ('ROLE_ADMIN');
 
-INSERT INTO tb_user_role (user_id, role_id) VALUES (1, 1);
-INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 1);
-INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 2);
 
 
 
 
-INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 1); -- Usuário 3 como ROLE_OPERATOR
-INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3); -- Usuário 3 como ROLE_MANAGER
-INSERT INTO tb_user_role (user_id, role_id) VALUES (4, 4); -- Usuário 4 como ROLE_SUPPORT
-INSERT INTO tb_user_role (user_id, role_id) VALUES (4, 1); -- Usuário 4 como ROLE_OPERATOR
-INSERT INTO tb_user_role (user_id, role_id) VALUES (5, 2); -- Usuário 5 como ROLE_ADMIN
